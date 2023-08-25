@@ -1,0 +1,11 @@
+@import "./mixins";
+@import "variable";
+@import "./reset";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "common/globals.scss";
+@import "common/header.scss";
+@import "common/footer.scss";
+@import "home/home.scss";
+// :root {
+//   --bs-btn-color: #000 !important;
+// }

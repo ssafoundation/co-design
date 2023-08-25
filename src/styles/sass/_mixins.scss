@@ -1,0 +1,14 @@
+@mixin button($padding, $background, $border, $font-size) {
+  padding: $padding;
+  border: 2px solid $border;
+  background: $background;
+  border-radius: 50px;
+  font-size: $font-size;
+}
+
+//================== text color =================
+@mixin apply-gradient-text {
+  @each $property, $value in $title-gradient-text {
+    #{$property}: $value;
+  }
+}

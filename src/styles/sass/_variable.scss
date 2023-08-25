@@ -1,0 +1,11 @@
+$primary-color: #101734;
+$text-color: #565f67;
+$text-white: #fff;
+$gradient-color: #e17800;
+$title-gradient-text: (
+  "display": inline-block,
+  "background": $gradient-color,
+  "background-clip": text,
+  "-webkit-background-clip": text,
+  " -webkit-text-fill-color": transparent,
+);
